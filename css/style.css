@@ -1,0 +1,92 @@
+*{
+  padding: 0em;
+  margin: 0em;
+  box-sizing:border-box;
+}
+
+body {
+	text-align: center;
+  font-family: "Roboto", "Merriweather", sans-serif; 
+}
+
+.toptext {
+  padding: 2.5%
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3.5%;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+#hero img {
+  max-width: 50%;
+  height: auto;
+  padding: 2.5%;
+}
+
+.reservation {
+  height: 25vh;
+}
+
+.reservation-form-container {
+  position: relative;
+  height: 100%;
+}
+
+th {
+  text-align: center;
+}
+
+.reservation-form {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+input:focus {
+  outline: none;
+}
+
+#map_text {
+  padding-top: 25%;
+  padding-bottom: 5%;
+}
+
+#jerry_photo, #jerry {
+  padding: 2.5%;
+}  
+
+@media only screen and (max-width: 991px) {
+form {
+  padding-left: 25%;
+  }
+#map_text {
+  padding-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+#map_text {
+  padding-top: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+h3 {
+  padding-top: 15%;
+}
+}
